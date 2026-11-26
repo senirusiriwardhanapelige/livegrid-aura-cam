@@ -15,11 +15,6 @@ The Node server receives these frames and repackages the pixel data into a strea
 For everything to work together, the Raspberry Pi and the LED panel need to be on the same Wi-Fi network so the packets can reach the panel. The browser page has to stay open on the Pi to keep capturing and sending frames, and the Node server needs to stay running the whole time to keep relaying that data to the panel. If either one stops, the panel will simply stop updating and hold on its last received frame.
 
 
-
-...
-
-
-
 ## Files
 
 - `server.js` — Node.js server that relays pixel data to the panel
